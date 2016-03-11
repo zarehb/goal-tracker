@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/zarehb/goal-tracker/issues"
   },
-  "homepage": "https://github.com/zarehb/goal-tracker"
+  "homepage": "https://github.com/zarehb/goal-tracker",
+  "dependencies": {
+    "react": "^0.14.7"
+  }
 }
