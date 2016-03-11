@@ -1,25 +1,17 @@
 {
   "name": "goal-tracker",
-  "version": "1.0.0",
-  "description": "Gosal Tracking Awesome Tool",
-  "main": "index.js",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./bin/www"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/zarehb/goal-tracker.git"
-  },
-  "author": "Zareh Boghozian",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/zarehb/goal-tracker/issues"
-  },
-  "homepage": "https://github.com/zarehb/goal-tracker",
   "dependencies": {
-    "babel-core": "^6.7.2",
-    "react": "^0.14.7",
-    "react-redux": "^4.4.0",
-    "redux": "^3.3.1"
+    "body-parser": "~1.13.2",
+    "cookie-parser": "~1.3.5",
+    "debug": "~2.2.0",
+    "express": "~4.13.1",
+    "jade": "~1.11.0",
+    "morgan": "~1.6.1",
+    "serve-favicon": "~2.3.0"
   }
 }
