@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/zarehb/goal-tracker",
   "dependencies": {
-    "react": "^0.14.7"
+    "react": "^0.14.7",
+    "react-redux": "^4.4.0",
+    "redux": "^3.3.1"
   }
 }
